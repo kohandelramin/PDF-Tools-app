@@ -1,0 +1,7 @@
+customtkinter
+PyPDF2
+reportlab
+pylibdmtx
+pdf2image
+opencv-python
+pandas

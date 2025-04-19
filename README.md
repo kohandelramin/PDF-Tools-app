@@ -1,2 +1,29 @@
-# PDF-Tools-app
-A desktop application with a modern GUI for batch processing PDFs: add page counters, extract Data Matrix codes, and match scanned barcodes with source patterns.
+# PDF Tools App
+
+A GUI application built with `customtkinter` to:
+- Add sequential page counters to PDFs
+- Extract Data Matrix codes from PDFs to CSV
+- Match extracted patterns with Excel/CSV sources
+
+## Tabs
+
+1. **Page Counter** - Add running number stamps to PDF pages.
+2. **Data Matrix Extractor** - Convert PDF to images, scan for matrix codes.
+3. **Pattern Finder** - Match patterns between scanned barcodes and source files.
+
+## Setup
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the app:
+```bash
+python app.py
+```
+
+## Requirements
+
+- Python 3.8+
+- Tesseract, poppler, and GhostScript may be required for PDF/image operations.
